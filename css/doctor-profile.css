@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk&display=swap');
+
+body{
+    overflow-x: hidden;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Hanken Grotesk', sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+.container{
+    margin: 0 auto;
+    height: auto;
+    width: 100%;
+  
+}
+/* Header start */
+header .container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header .container .barsandlogo{
+margin: 20px 0 0 152px;
+display: inline-flex;
+align-items: center;
+gap: 16px;
+}
+header .container .barsandlogo i{
+    color: black;
+}
+header .container ul{
+    margin: 20px 148px 0 0;
+    display: inline-flex;
+    gap: 8px; 
+    align-items: center;
+}
+header .container ul li select{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    border-radius: 8px;
+    padding: 10px 12px;
+    border: 1px solid #EDF0F4;
+}
+header .container ul li:nth-child(2) {
+    display: flex;
+    padding: 10px 24px;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid #EDF0F4;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: #fff;
+}
+header .container ul li:nth-child(2) a{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: -0.25px;
+    color: black;
+}
+header .container ul li:nth-child(3) {
+    display: flex;
+    padding: 10px 24px;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid #EDF0F4;
+    border-radius: 8px;
+    background-color: #4CB147;
+    cursor: pointer;
+}
+header .container ul li:nth-child(3):hover{
+    opacity: 0.8;
+}
+header .container ul li:nth-child(3) a{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: -0.25px;
+    color: #fff;
+}
+/* header end */
+/* doctorbox start */
+.doctorbox{
+width: 1144px;
+margin: 0 auto;
+    border: 1px solid #EDF0F4;
+    margin-top: 20px;
+}
