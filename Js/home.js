@@ -1,13 +1,10 @@
-$('.home-slider').owlCarousel({
+$('.popular-slider').owlCarousel({
     loop:true,
-    margin:32,
-    
+    margin:28,
    smartSpeed:1500,
    autoWidth:false,
-   dots:false,
+   dots:true,
    nav:true,
-   navText:["<img src='left.svg'>","<img src='left.svg'>"],
-   
     
     responsive:{
         0:{
@@ -16,8 +13,16 @@ $('.home-slider').owlCarousel({
         600:{
             items:1
         },
-        1000:{
+        1200:{
             items:1
         }
     }
 })
+
+
+
+
+
+
+
+

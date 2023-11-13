@@ -1,0 +1,495 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk&display=swap');
+
+body {
+    overflow-x: hidden;
+    background-color: #FBFBFC;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Hanken Grotesk', sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1144px;
+    position: relative;
+}
+
+header {
+    background-color: #FFF;
+    border: 1px solid #EDF0F4;
+}
+
+.info {
+    display: flex;
+    padding-top: 20px;
+
+}
+.info .left {
+    display: flex;
+    align-items: center;
+
+}
+
+.info .left  .logo {
+    padding: 0 78px 20px 32px;
+    padding-bottom: 17px;
+    border-bottom: 1px solid #4CB147;
+}
+
+
+
+
+.infotext {
+    position: relative;
+    border-bottom: 1px solid #4CB147;
+    padding-right: 72px;
+    padding-bottom: 18px;
+}
+
+.infotext h5 {
+    color: var(--brand-main-base, #101825);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.15px;
+}
+
+.infotext span {
+    text-align: center;
+    width: 24px;
+    height: 24px;
+    border: 1px solid #4CB147;
+    color: #FFF;
+    background-color: #4CB147;
+    border-radius: 50%;
+    position: absolute;
+    top: 51px;
+
+
+}
+
+
+.infotext p {
+    color: var(--text-medium, #848B98);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: -0.25px;
+
+}
+
+
+
+.info .question {
+    border-bottom: 1px solid #4CB147;
+    padding-right: 72px;
+    padding-bottom: 18px;
+
+}
+
+.info .question h5 {
+    color: var(--brand-main-base, #101825);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: -0.15px;
+}
+
+.info .question p {
+    color: var(--text-medium, #848B98);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: -0.25px;
+}
+
+.info .question span {
+    text-align: center;
+    width: 24px;
+    height: 24px;
+    border: 1px solid #4CB147;
+    color: #fff;
+    background-color: #4CB147;
+    border-radius: 50%;
+    position: absolute;
+    top: 70px;
+}
+
+
+
+.info .payment {
+    padding-bottom: 18px;
+}
+
+.info .payment h5 {
+    color: var(--brand-main-base, #101825);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: -0.15px;
+
+}
+
+.info .payment p {
+    color: var(--text-medium, #848B98);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: -0.25px;
+}
+
+.info .payment span {
+    text-align: center;
+    width: 24px;
+    height: 24px;
+    border: 1px solid #4CB147;
+    color: #fff;
+    background-color: #4CB147;
+    border-radius: 50%;
+    position: absolute;
+    top: 70px;
+}
+.info .signup{
+    padding-left: 72px;
+    padding-bottom: 18px;
+}
+.info .signup h5 {
+    color: var(--brand-main-base, #4CB147);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: -0.15px;
+
+}
+
+.info .signup p {
+    color: var(--text-medium, #848B98);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: -0.25px;
+}
+
+.info .signup span {
+    text-align: center;
+    width: 24px;
+    height: 24px;
+    border: 1px solid #4CB147;
+    color: #4CB147;
+    background-color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    top: 70px;
+}
+
+.schedule .nav {
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    gap: 60px;
+    position: relative;
+    left: 50%;
+
+}
+
+.schedule .nav img {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #EDF0F4;
+    border-radius: 8px;
+    position: absolute;
+}
+
+.info .rightx {
+    position: absolute;
+    right: 32px;
+    top: 22px;
+    background-color: #EDF0F4;
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.takemeeting {
+    border: 1px solid #EDF0F4;
+    border-radius: 8px;
+    padding: 24px 0 32px 0;
+    background-color: #fff;
+    width: 49%;
+    height: 100%;
+    margin: 0 auto;
+    margin-bottom: 232px;
+    margin-top: 32px;
+    position: relative;
+}
+
+.takemeeting .person {
+    display: flex;
+    margin-left: 32px;
+}
+
+.takemeeting .person .ptext {
+    margin-left: 16px;
+}
+
+.takemeeting .person span {
+    color: var(--text-medium, #848B98);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: -0.15px;
+}
+
+.takemeeting .person h1 {
+    color: var(--text-dark, #101825);
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.takemeeting h4 {
+    color: var(--text-dark, #101825);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: -0.15px;
+    border-top: 1px solid #EDF0F4;
+    margin-top: 24px;
+    padding-left: 32px;
+    padding-top: 24px;
+}
+
+.takemeeting form {
+    margin-left: 32px;
+}
+
+.takemeeting form p {
+    color: var(--text-medium, #848B98);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: -0.25px;
+    margin-top: 16px;
+}
+
+.takemeeting form .tel {
+    display: flex;
+}
+
+.takemeeting form .tel .four {
+    width: 15%;
+    cursor: pointer;
+}
+
+.takemeeting form .tel .five {
+    width: 77%;
+    margin-left: 8px;
+}
+
+.takemeeting form .tel .four select {
+    border: none;
+    outline: none;
+    width: 100%;
+}
+
+.takemeeting .form-group {
+    width: 94%;
+    border: 1px solid #EDF0F4;
+    border-radius: 8px;
+    padding: 14px 16px;
+    margin-top: 4px;
+
+}
+
+.takemeeting .form-group input {
+    width: 100%;
+    border: none;
+    outline: none;
+}
+
+.takemeeting .four {
+    display: flex;
+}
+
+
+
+
+.takemeeting i {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    border-radius: 8px;
+    line-height: 40px;
+    background-color: #fff;
+    border: 1px solid #EDF0F4;
+    cursor: pointer;
+    position: absolute;
+    top: 31px;
+    transform: translateY(-80%);
+
+}
+
+.takemeeting i:first-child {
+    left: -48px;
+}
+
+.takemeeting i:last-child {
+    right: -48px;
+}
+
+
+
+
+
+
+
+.resume {
+    background-color: #4CB147;
+    color: #fff;
+    border: 1px solid #EDF0F4;
+    border-radius: 8px;
+    padding: 12px;
+    text-align: center;
+    margin-top: 16px;
+    cursor: pointer;
+    margin: 16px 32px 0 32px;
+}
+
+.resume:hover {
+    opacity: 0.8;
+}
+
+.takemeeting .resume a {
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: -0.25px;
+}
+
+.takemeeting .and {
+    text-align: center;
+    border-bottom: 1px solid #EDF0F4;
+    margin: 28px 32px 28px 32px;
+
+}
+
+.takemeeting .and p {
+    margin-bottom: -7px;
+    color: var(--text-light, #B7BBC2);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+
+}
+
+.takemeeting .google {
+    margin-left: 32px;
+    margin-right: 32px;
+    padding: 14px 16px 14px 16px;
+    display: flex;
+    border: 1px solid #D84E40;
+    border-radius: 8px;
+    margin-bottom: 8px;
+    cursor: pointer;
+}
+
+.takemeeting .google:hover {
+    background-color: #caf0c9;
+
+}
+
+.takemeeting .fb {
+    margin-left: 32px;
+    margin-right: 32px;
+    padding: 14px 16px 14px 16px;
+    display: flex;
+    border: 1px solid #1872F2;
+    border-radius: 8px;
+    cursor: pointer;
+
+}
+
+.takemeeting .fb:hover {
+    background-color: #caf0c9;
+
+}
+
+.takemeeting .google p {
+    color: #D84E40;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: -0.25px;
+    padding-left: 149px;
+
+}
+
+.takemeeting .fb p {
+    color: #1872F2;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: -0.25px;
+    padding-left: 141px;
+}
+
+.takemeeting .signin {
+    margin: 24px 0 0 6px;
+    text-align: center;
+}
+
+.takemeeting .signin p {
+    color: var(--text-medium, #848B98);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: -0.25px;
+}
+
+.takemeeting .signin a {
+    color: var(--brand-main-base, #4CB147);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: -0.25px;
+}
+
+@media (max-width: 576px) {
+    .container {
+        max-width:540px
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        max-width:750px
+    }
+}
+
+@media (max-width: 992px) {
+    .container {
+        max-width:960px
+    }
+}
+
+@media (max-width: 1200px) {
+    .container {
+        max-width:1180px
+    }
+}
+
+@media (max-width: 1700px) {
+    .container {
+        max-width:1660px
+  
+    }
+}

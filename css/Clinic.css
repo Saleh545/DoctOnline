@@ -1,0 +1,286 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk&display=swap');
+
+body {
+    overflow-x: hidden;
+    background-color: #FBFBFC;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Hanken Grotesk', sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1144px;
+    position: relative;
+}
+
+header {
+    background-color: #FFF;
+    border: 1px solid #EDF0F4;
+}
+
+.info {
+    display: flex;
+    padding-top: 20px;
+
+}
+
+.info .left {
+    display: flex;
+    align-items: center;
+
+}
+
+.info .left .logo {
+    padding: 0 78px 20px 32px;
+    padding-bottom: 17px;
+}
+
+
+.info .rightx {
+    position: absolute;
+    right: 32px;
+    top: 22px;
+    background-color: #EDF0F4;
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.takemeeting {
+    border: 1px solid #EDF0F4;
+    border-radius: 8px;
+    padding: 24px 0 32px 0;
+    background-color: #fff;
+    width: 49%;
+    height: 100%;
+    margin: 0 auto;
+
+    margin-top: 32px;
+    position: relative;
+}
+
+.takemeeting .person {
+    display: flex;
+    margin-left: 32px;
+}
+
+.takemeeting .person .profession {
+    margin-left: 16px;
+}
+
+.takemeeting .person .ptext {
+
+    margin: 14px 0 0 16px;
+}
+
+.takemeeting .person .ptext span {
+    color: var(--text-medium, #848B98);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: -0.15px;
+}
+
+.takemeeting .person .ptext h1 {
+    color: var(--text-dark, #101825);
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.takemeeting .person .ptext .name a {
+    color: var(--text-base, #273142);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: -0.1px;
+    padding: 5px 12px;
+    border: 1px solid #EDF0F4;
+    background-color: #EDF0F4;
+    border-radius: 8px;
+    margin: 0 0 0 106px;
+
+}
+
+.takemeeting .video {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 8px;
+    padding: 16px 0 16px 24px;
+    border-top: 1px solid #FBFBFC;
+    border: 1px solid #EDF0F4;
+    border-radius: 8px;
+    margin: 32px 32px 0 32px;
+    width: 89%;
+    background-color: #FBFBFC;
+    cursor: pointer;
+}
+
+.takemeeting .video:hover {
+    background-color: #caf0c9;
+    border: 1px solid #4CB147;
+}
+
+.takemeeting .video p {
+    color: var(--text-base, #273142);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.15px;
+}
+
+.takemeeting .date {
+    display: flex;
+    margin: 8px 32px 0 32px;
+}
+
+.takemeeting .date .cale {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    border: 1px solid #EDF0F4;
+    border-radius: 8px;
+    background-color: #FBFBFC;
+    width: 50%;
+    padding: 16px 0 16px 24px;
+    cursor: pointer;
+
+}
+
+.takemeeting .date .cale:hover {
+    background-color: #caf0c9;
+    border: 1px solid #4CB147;
+}
+
+.takemeeting .head {
+    border: 1px solid #EDF0F4;
+    border-radius: 8px;
+    background-color: #FBFBFC;
+    width: 89%;
+    padding: 16px 0 16px 24px;
+    cursor: pointer;
+    margin: 8px 32px 8px 32px;
+}
+
+.takemeeting .head:hover {
+    background-color: #caf0c9;
+    border: 1px solid #4CB147;
+}
+
+.takemeeting .minute {
+    display: flex;
+    justify-content: space-between;
+    margin: 8px 32px 8px 32px;
+    padding: 16px 24px 16px 24px;
+    border: 1px solid #EDF0F4;
+    border-radius: 8px;
+    background-color: #FBFBFC;
+    cursor: pointer;
+
+}
+
+.takemeeting .minute:hover {
+    background-color: #caf0c9;
+    border: 1px solid #4CB147;
+}
+
+.takemeeting .minute h5 {
+    color: var(--text-base, #273142);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.15px;
+}
+
+.takemeeting .minute .right {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 4px;
+}
+
+.resume {
+    background-color: #4CB147;
+    color: #fff;
+    border: 1px solid #EDF0F4;
+    border-radius: 8px;
+    padding: 12px;
+    text-align: center;
+    margin-top: 16px;
+    cursor: pointer;
+    margin: 16px 32px 0 32px;
+}
+
+.resume:hover {
+    opacity: 0.8;
+}
+
+.takemeeting .resume a {
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: -0.25px;
+}
+
+.bottomtext {
+    margin: 0 auto;
+    width: 27%;
+    margin-top: 24px;
+}
+
+.bottomtext p {
+    color: var(--text-base, #273142);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.5px;
+}
+
+.bottomtext a {
+    text-align: center;
+    color: var(--brand-main-base, #4CB147);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.5px;
+    padding-left: 29%;
+}
+
+.bottomtext .social {
+    display: flex;
+    padding: 8px;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 10px;
+}
+
+.bottomtext .social .slink{
+    width: 40px;
+    height: 40px;
+}
+.bottomtext .social .slink i{
+    padding: 8px;
+    border: 1px solid #EDF0F4;
+    border-radius: 50%;
+    cursor: pointer;
+    color: #848B98;
+}
+.bottomtext .social .slink i:hover {
+    background-color: #4CB147;
+    color: #fff;
+}

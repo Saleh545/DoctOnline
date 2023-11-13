@@ -1,0 +1,410 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk&display=swap');
+
+body {
+    overflow-x: hidden;
+    background-color: #FBFBFC;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Hanken Grotesk', sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1144px;
+    position: relative;
+}
+
+header {
+    background-color: #FFF;
+    border: 1px solid #EDF0F4;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.info .left {
+    display: flex;
+    align-items: center;
+
+}
+
+.info .left .logo {
+    padding: 20px 78px 20px 32px;
+    padding-bottom: 17px;
+    border-bottom: 1px solid #4CB147;
+
+}
+
+
+.infotext {
+    position: relative;
+}
+
+.infotext h5 {
+    color: var(--brand-main-base, #4CB147);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.15px;
+}
+
+.infotext p {
+    text-align: center;
+    width: 24px;
+    height: 24px;
+    border: 1px solid #4CB147;
+    color: #4CB147;
+    background-color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    top: 51px;
+
+}
+
+
+.infotext span {
+    color: var(--text-medium, #848B98);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: -0.25px;
+
+}
+
+.schedule .nav {
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    gap: 60px;
+    position: relative;
+    left: 50%;
+
+}
+
+.schedule .nav img {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #EDF0F4;
+    border-radius: 8px;
+    position: absolute;
+}
+
+.info .rightx {
+margin-right: 32px;
+    background-color: #EDF0F4;
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.takemeeting {
+    border: 1px solid #EDF0F4;
+    border-radius: 8px;
+    padding: 32px;
+    background-color: #fff;
+    width: 49%;
+    height: 100%;
+    margin: 0 auto;
+    margin-bottom: 232px;
+    margin-top: 32px;
+    position: relative;
+}
+
+.takemeeting h4 {
+    color: var(--text-dark, #101825);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: -0.15px;
+    padding-top: 24px;
+    margin-top: 24px;
+    width: 100%;
+    border-top: 1px solid #EDF0F4;
+}
+
+.takemeeting p {
+    color: var(--text-medium, #848B98);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.5px;
+    padding-top: 4px;
+}
+
+.takemeeting .newmeeting {
+    display: flex;
+    justify-content: space-between;
+    margin: 16px 0 16px;
+}
+
+.takemeeting .meetbox {
+    border: 1px solid #EDF0F4;
+    cursor: pointer;
+    border-radius: 8px;
+    display: inline-flex;
+    padding: 12px 16px 12px 49px;
+}
+
+
+.takemeeting .meetbox:hover {
+    background-color: #caf0c9;
+    border: 1px solid #4CB147;
+}
+
+.takemeeting .meetbox .twomeet {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.takemeeting .meetbox span {
+    color: var(--text-dark, #101825);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: -0.25px;
+    margin-right: 59px;
+    margin-left: 8px;
+}
+
+.takemeeting .person {
+    display: flex;
+}
+
+.takemeeting .person .ptext {
+    margin-left: 16px;
+}
+
+.takemeeting .person span {
+    color: var(--text-medium, #848B98);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: -0.15px;
+}
+
+.takemeeting .person h1 {
+    color: var(--text-dark, #101825);
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.takemeeting i {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    border-radius: 8px;
+    line-height: 40px;
+    background-color: #fff;
+    border: 1px solid #EDF0F4;
+    cursor: pointer;
+    position: absolute;
+    top: 4%;
+    transform: translateY(-80%);
+
+}
+
+.takemeeting i:first-child {
+    left: -48px;
+}
+
+.takemeeting i:last-child {
+    right: -48px;
+}
+
+
+.adresbox {
+    border: 1px solid #EDF0F4;
+    border-radius: 8px;
+    margin-top: 8px;
+    padding: 18px 0 18px 48px;
+
+    cursor: pointer;
+}
+
+.adresbox:hover {
+    background-color: #caf0c9;
+    border: 1px solid #4CB147;
+}
+
+.adresbox label {
+    color: var(--text-base, #273142);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: -0.1px;
+}
+
+.clockbox {
+    margin-top: 16px;
+
+}
+
+.clockbox .date {
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+}
+
+.clockbox .date .datebox {
+    display: flex;
+    border: 1px solid #EDF0F4;
+    border-radius: 8px;
+    padding: 5px 26px;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+
+}
+
+.clockbox .date .datebox:hover {
+    background-color: #4CB147;
+    color: #FFF;
+}
+
+.clockbox .date .datebox p:hover {
+    color: #FFF;
+}
+
+.clockbox .date .datebox span:hover {
+    color: #FFF;
+}
+
+
+.clockbox .date .datebox .faleft {
+    display: inline-flex;
+    padding: 8px;
+    align-items: flex-start;
+    gap: 10px;
+    width: 32px;
+    height: 32px;
+    border: 1px solid #EDF0F4;
+    border-radius: 16px;
+    margin-left: -13px;
+    position: absolute;
+    margin-right: 51px;
+}
+
+.clockbox .date .datebox .faleft:hover {
+    background-color: #4CB147;
+}
+
+.clockbox .date .datebox .faleft .fa-solid {
+    display: flex;
+    width: 16px;
+    height: 16px;
+    justify-content: center;
+    align-items: center;
+}
+
+.clockbox .date .datebox p {
+    color: #101825;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: -0.1px;
+}
+
+.clockbox .date .datebox span {
+    color: #B7BBC2;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+}
+
+.houritem {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    margin-top: 16px;
+
+}
+
+.clockbox .hourboxlong {
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+}
+
+.clockbox .hourbox {
+    display: flex;
+    padding: 6px 25px;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid #EDF0F4;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.clockbox .hourbox:hover {
+    background-color: #4CB147;
+    color: #FFF;
+}
+
+.resume {
+    background-color: #4CB147;
+    border: 1px solid #EDF0F4;
+    border-radius: 8px;
+    padding: 12px;
+    text-align: center;
+    margin-top: 16px;
+    cursor: pointer;
+}
+
+.resume:hover {
+    opacity: 0.8;
+}
+
+.takemeeting .resume a {
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: -0.25px;
+}
+
+@media (max-width: 576px) {
+    .container {
+        max-width: 540px
+    }
+
+}
+
+@media (max-width: 768px) {
+    .container {
+        max-width: 750px
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        max-width: 960px
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1180px
+    }
+}
+
+@media (min-width: 1700px) {
+    .container {
+        max-width: 1660px
+    }
+}
