@@ -100,7 +100,7 @@ header {
 }
 
 .info .rightx {
-margin-right: 32px;
+    margin-right: 32px;
     background-color: #EDF0F4;
     border-radius: 50%;
     width: 36px;
@@ -380,12 +380,147 @@ margin-right: 32px;
 
 @media (max-width: 576px) {
     .container {
-        max-width: 540px
+        max-width: 338px;
     }
 
+    .schedule {
+        margin: 16px;
+    }
+
+    .info .left .logo {
+        border: none;
+    }
+
+    .takemeeting i {
+        display: none;
+    }
+
+    .infotext {
+        display: none;
+    }
+
+    .info .rightx {
+        right: 16px;
+        top: 16px;
+    }
+
+    .takemeeting {
+        width: 100%;
+        padding: 0;
+        border: none;
+        background-color: #FBFBFC;
+
+    }
+
+    .takemeeting .person {
+        background-color: #fff;
+        padding: 16px;
+        border: 1px solid #EDF0F4;
+        width: 100%;
+    }
+
+    .takemeeting .person h1 {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: -0.15px;
+    }
+
+    .takemeeting .person span {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: -0.1px;
+    }
+
+    .takemeeting .newmeeting {
+        width: 100%;
+        display: flex;
+        gap: 8px;
+    }
+
+    .takemeeting .meetbox {
+        width: 50%;
+        padding: 16px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .takemeeting h4 {
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 20px;
+        letter-spacing: -0.1px;
+    }
+
+    .takemeeting .meetbox img:last-child {
+        display: none;
+    }
+
+    .takemeeting .meetbox span {
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 16px;
+        width: 100%;
+        margin: 0;
+        margin-left: 8px;
+    }
+
+    .adresbox {
+        padding: 14px 0 14px 16px;
+        display: inline-flex;
+        gap: 8px;
+        width: 100%;
+    }
+
+    .adresbox label {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: -0.25px;
+    }
+
+    .clockbox .date .datebox p {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: -0.1px;
+    }
+
+    .clockbox .date .datebox span {
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 16px;
+    }
+
+    .clockbox {
+        width: 100%;
+    }
+
+    .clockbox .hourboxlong {
+        width: 100%;
+    }
+
+    .clockbox .date {
+        width: 100%;
+    }
+
+    .clockbox .date .datebox {
+        padding: 5px 10px;
+        display: flex;
+    }
+
+    .clockbox .hourbox {
+        padding: 5px 12px;
+    }
+
+    .resume {
+        display: none;
+    }
 }
 
-@media (max-width: 768px) {
+@media (min-width: 768px) {
     .container {
         max-width: 750px
     }

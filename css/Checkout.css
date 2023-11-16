@@ -118,9 +118,11 @@ header {
     position: absolute;
     top: 70px;
 }
-.info .payment{
+
+.info .payment {
     padding-bottom: 18px;
 }
+
 .info .payment h5 {
     color: var(--brand-main-base, #4CB147);
     font-size: 16px;
@@ -333,4 +335,139 @@ header {
     font-size: 14px;
     font-weight: 400;
     letter-spacing: -0.25px;
+}
+
+
+@media (max-width: 576px) {
+    .container {
+        max-width: 338px;
+    }
+
+    .schedule {
+        margin: 16px;
+    }
+
+    .info .left .logo {
+        border: none;
+    }
+
+
+    .takemeeting i {
+        display: none;
+    }
+
+    .infotext {
+        display: none;
+    }
+
+    .info .question {
+        display: none;
+    }
+
+    .info .payment {
+        display: none;
+
+    }
+
+    .info .rightx {
+        right: 16px;
+        top: 16px;
+    }
+
+    .takemeeting {
+        width: 100%;
+        padding: 0;
+        border: none;
+        background-color: #FBFBFC;
+
+    }
+
+    .takemeeting .person {
+        background-color: #fff;
+        padding: 16px;
+        margin: 0;
+        border: 1px solid #EDF0F4;
+        border-radius: 8px;
+        width: 100%;
+    }
+
+    .takemeeting .person h1 {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: -0.15px;
+    }
+
+    .takemeeting .person span {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: -0.1px;
+    }
+
+    .takemeeting h4 {
+        display: none;
+    }
+
+    .takemeeting .plaint {
+        margin: 0;
+        margin-top: 16px;
+        width: 100%;
+    }
+
+    .takemeeting .plaint p {
+        padding: 0;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 20px;
+        letter-spacing: -0.1px;
+    }
+
+    .takemeeting .plaint h5 {
+        padding: 0;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: -0.15px;
+    }
+
+    .takemeeting .plaint .adresbox p {
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 20px;
+        letter-spacing: -0.1px;
+    }
+
+    .resume {
+        width: 100%;
+        margin: 0;
+        margin-top: 16px;
+    }
+   
+
+
+}
+
+@media (min-width: 768px) {
+    .container {
+        max-width: 750px
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        max-width: 960px
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1180px
+    }
+}
+
+@media (min-width: 1700px) {
+    .container {
+        max-width: 1660px
+    }
 }

@@ -265,15 +265,80 @@ header {
 }
 
 
-
 @media (max-width: 576px) {
     .container {
-        max-width: 540px
+        max-width: 338px;
+    }
+.schedule{
+    margin: 16px;
+}
+    .info .left .logo {
+        border: none;
     }
 
+
+    .takemeeting i {
+        display: none;
+    }
+
+    .infotext {
+        display: none;
+    }
+    .info .question{
+        display: none;
+    }
+    .info .rightx{
+        right: 16px;
+        top: 16px;
+    }
+
+    .takemeeting {
+        width: 100%;
+        padding: 0;
+        border: none;
+        background-color: #FBFBFC;
+        
+    }
+    .takemeeting .person{
+        background-color: #fff;
+        padding: 16px;
+        margin: 0;
+        border: 1px solid #EDF0F4;
+        width: 100%;
+    }
+    .takemeeting .person h1 {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: -0.15px;
+    }
+
+    .takemeeting .person span {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: -0.1px;
+    }
+    .takemeeting h4{
+        display: none;
+    }
+    .takemeeting .plaint select{
+        width: 100%;
+    }
+    .takemeeting .plaint{
+        margin: 0;
+        margin-top: 16px;
+    }
+    .resume{
+        width: 100%;
+        margin: 0;
+        margin-top: 16px;
+    }
+   
+   
 }
 
-@media (max-width: 768px) {
+@media (min-width: 768px) {
     .container {
         max-width: 750px
     }

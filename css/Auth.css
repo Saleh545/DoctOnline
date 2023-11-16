@@ -30,13 +30,14 @@ header {
     padding-top: 20px;
 
 }
+
 .info .left {
     display: flex;
     align-items: center;
 
 }
 
-.info .left  .logo {
+.info .left .logo {
     padding: 0 78px 20px 32px;
     padding-bottom: 17px;
     border-bottom: 1px solid #4CB147;
@@ -155,10 +156,12 @@ header {
     position: absolute;
     top: 70px;
 }
-.info .signup{
+
+.info .signup {
     padding-left: 72px;
     padding-bottom: 18px;
 }
+
 .info .signup h5 {
     color: var(--brand-main-base, #4CB147);
     font-size: 16px;
@@ -463,33 +466,168 @@ header {
     letter-spacing: -0.25px;
 }
 
+
 @media (max-width: 576px) {
     .container {
-        max-width:540px
+        max-width: 338px;
+    }
+
+    .schedule {
+        margin: 16px;
+    }
+
+    .info .left .logo {
+        border: none;
+    }
+
+
+    .takemeeting i {
+        display: none;
+    }
+
+    .infotext {
+        display: none;
+    }
+
+    .info .question {
+        display: none;
+    }
+
+    .info .payment {
+        display: none;
+
+    }
+
+    .info .signup {
+        display: none;
+    }
+
+    .info .rightx {
+        right: 16px;
+        top: 16px;
+    }
+
+    /* header end */
+    .takemeeting {
+        width: 100%;
+        padding: 0;
+        border: none;
+        background-color: #FBFBFC;
+
+    }
+
+    .takemeeting .person {
+        background-color: #fff;
+        padding: 16px;
+        margin: 0;
+        border: 1px solid #EDF0F4;
+        border-radius: 8px;
+        width: 100%;
+    }
+
+    .takemeeting .person h1 {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: -0.15px;
+    }
+
+    .takemeeting .person span {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: -0.1px;
+    }
+
+    .takemeeting h4 {
+        display: none;
+    }
+
+    .takemeeting .plaint {
+        margin: 0;
+        margin-top: 16px;
+        width: 100%;
+    }
+
+    .takemeeting form {
+        margin: 0;
+        width: 100%;
+    }
+
+    .takemeeting .form-group {
+        width: 100%;
+    }
+
+    .takemeeting .plaint p {
+        padding: 0;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 20px;
+        letter-spacing: -0.1px;
+    }
+
+    .takemeeting .plaint h5 {
+        padding: 0;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: -0.15px;
+    }
+
+    .takemeeting .plaint .adresbox p {
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 20px;
+        letter-spacing: -0.1px;
+    }
+
+    .resume {
+        width: 100%;
+        margin: 0;
+        margin-top: 16px;
+    }
+
+    .takemeeting .google {
+        width: 100%;
+        margin: 0;
+    }
+
+    .takemeeting .google p {
+        padding-left: 69px;
+    }
+
+    .takemeeting .fb {
+        width: 100%;
+        margin: 0;
+        text-align: center;
+        margin-top: 8px;
+    }
+
+    .takemeeting .fb p {
+        padding-left: 61px;
     }
 }
 
-@media (max-width: 768px) {
+@media (min-width: 768px) {
     .container {
-        max-width:750px
+        max-width: 750px
     }
 }
 
-@media (max-width: 992px) {
+@media (min-width: 992px) {
     .container {
-        max-width:960px
+        max-width: 960px
     }
 }
 
-@media (max-width: 1200px) {
+@media (min-width: 1200px) {
     .container {
-        max-width:1180px
+        max-width: 1180px
     }
 }
 
-@media (max-width: 1700px) {
+@media (min-width: 1700px) {
     .container {
-        max-width:1660px
-  
+        max-width: 1660px
     }
 }

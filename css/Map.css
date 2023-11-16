@@ -296,3 +296,158 @@ header {
     background-color: #4CB147;
     color: #fff;
 }
+
+@media (max-width: 576px) {
+    .container {
+        max-width: 338px;
+    }
+
+    .schedule {
+        margin: 16px;
+    }
+
+    .info .left .logo {
+        border: none;
+    }
+
+    .info .rightx {
+        right: 16px;
+        top: 16px;
+    }
+
+    /* header end */
+    .takemeeting {
+        width: 100%;
+        padding: 0;
+        border: none;
+        background-color: #FBFBFC;
+
+    }
+
+    .takemeeting .person {
+        background-color: #fff;
+        padding: 16px;
+        margin: 0;
+        border: 1px solid #EDF0F4;
+        border-radius: 8px;
+        width: 100%;
+    }
+
+    .takemeeting .person .ptext h1 {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: -0.15px;
+    }
+
+    .takemeeting .person .ptext h1 img {
+        display: none;
+    }
+
+    .takemeeting .person .ptext span {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: -0.1px;
+        color: #4CB147;
+    }
+
+    .takemeeting .person .ptext .name {
+        display: inline-flex;
+        gap: 8px;
+
+    }
+
+    .takemeeting .person .ptext .name a {
+        margin: 0;
+        padding: 5px 12px;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 16px
+    }
+
+    .takemeeting .video {
+        width: 100%;
+        margin: 0;
+        margin-top: 16px;
+    }
+
+    .takemeeting .date {
+        width: 100;
+        margin: 0;
+    }
+
+    .takemeeting .head {
+        width: 100%;
+        margin: 0;
+        margin-top: 16px;
+        margin-bottom: 16px;
+
+    }
+
+    .takemeeting .minute {
+        width: 100;
+        margin: 0;
+    }
+
+    .takemeeting .map {
+        margin: 0;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .takemeeting .video {
+        padding: 14px 0 0 16px;
+    }
+
+    .takemeeting .video p {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: -0.25px;
+    }
+
+    .resume {
+        width: 100%;
+        margin: 0;
+        margin-top: 16px;
+    }
+
+    .bottomtext {
+        width: 90%;
+    }
+
+    .bottomtext p {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: -0.25px;
+        width: 100%;
+    }
+
+
+}
+
+@media (min-width: 768px) {
+    .container {
+        max-width: 750px
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        max-width: 960px
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1180px
+    }
+}
+
+@media (min-width: 1700px) {
+    .container {
+        max-width: 1660px
+    }
+}
